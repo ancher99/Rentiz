@@ -33,6 +33,15 @@ body._lock {
   padding: 0 15px;
 }
 
+/*----General----*/
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+/*----/General----*/
 /*----header----*/
 .header {
   padding: clamp(1.25rem, 0.886rem + 1.82vw, 2.5rem) 0;
@@ -222,3 +231,5 @@ body._lock {
     background-color: transparent;
   }
 }
+
+/*----Hero----*/

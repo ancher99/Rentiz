@@ -32,6 +32,16 @@ body{
     padding: 0 15px;
 }
 
+/*----General----*/
+.text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+/*----/General----*/
+
 /*----header----*/
 
 .header {
@@ -205,4 +215,34 @@ body{
       background-color: transparent;
     }
   }
+}
+
+
+/*----Hero----*/
+
+.page {
+}
+.hero {
+
+		&__container {
+		}
+
+		&__conter {
+		}
+
+		&__title {
+		}
+
+		&__text {
+		}
+
+		&__filter {
+		}
+
+		&__img {
+		}
+}
+.text {
+}
+.filter {
 }
