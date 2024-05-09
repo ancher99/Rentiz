@@ -21,6 +21,8 @@ ul{
 body{
     font-family: 'Work Sans', sans-serif;
     background-color: var(--bg-color);
+    position: relative;
+    color: #fff;
     &._lock{
       overflow: hidden;
     }
@@ -89,7 +91,7 @@ body{
   }
 }
 .menu {
-@media (max-width: 1004px){
+@media (max-width: 996px){
   position: absolute;
   top: 0;
   left: -100%;
@@ -105,7 +107,8 @@ body{
   }
 }
   &-icon{
-    @media (max-width: 1004px){
+    display: none;
+    @media (max-width: 996px){
 			display: block;
 			width: 30px;
 			height: 18px;
@@ -151,7 +154,7 @@ body{
     display: flex;
     align-items: center;
     gap: 40px;
-    @media (max-width: 1004px){
+    @media (max-width: 996px){
       flex-direction: column;
       margin: auto;
     }
@@ -192,7 +195,7 @@ body{
         }
       }
     }
-    @media (max-width: 1004px){
+    @media (max-width: 996px){
       line-height: 50px;
       font-size: 30px;
     }
@@ -225,9 +228,13 @@ body{
 .hero {
 
 		&__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 		}
 
-		&__conter {
+		&__content {
+      flex: 0 0 calc(700px/1420px *100%);
 		}
 
 		&__title {
@@ -246,3 +253,5 @@ body{
 }
 .filter {
 }
+
+/*----/Hero----*/
