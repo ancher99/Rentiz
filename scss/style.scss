@@ -260,9 +260,43 @@ body{
 		&__img {
 		}
 }
-.text {
-}
-.filter {
-}
+
 
 /*----/Hero----*/
+
+
+/*----Filter----*/
+.filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 165px;
+  color: #000;
+
+  &_btn {
+  }
+
+  &__block {
+  }
+}
+.block-filter {
+
+  &__button {
+  }
+
+  &__header {
+  }
+
+  &__type {
+  }
+
+  &__value {
+  }
+
+  &__dropdown {
+  }
+
+  &__item {
+  }
+}
+
+
+/*----/Filter----*/

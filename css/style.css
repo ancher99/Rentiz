@@ -275,3 +275,12 @@ body._lock {
   position: absolute;
 }
 /*----/Hero----*/
+/*----Filter----*/
+.filter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 165px;
+  grid-template-columns: 1fr 1fr 1fr 165px;
+  color: #000;
+}
+/*----/Filter----*/
