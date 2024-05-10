@@ -297,4 +297,58 @@ body._lock {
   text-transform: capitalize;
   color: #ffffff;
 }
+.filter__block:nth-child(2) {
+  border-right: 1px solid #E8E8E8;
+  border-left: 1px solid #E8E8E8;
+}
+
+.block-filter {
+  position: relative;
+}
+.block-filter__button {
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.block-filter__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block-filter__type {
+  padding-right: 2px;
+  font-size: 16px;
+  color: #858585;
+}
+.block-filter__icon {
+  width: 10px;
+  height: 7px;
+  background: url("../img/fa6-solid_angle-down.svg") center no-repeat;
+}
+.block-filter__value {
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.block-filter__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  opacity: 0;
+}
 /*----/Filter----*/
