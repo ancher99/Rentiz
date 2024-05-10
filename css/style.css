@@ -345,10 +345,34 @@ body._lock {
 }
 .block-filter__dropdown {
   position: absolute;
-  top: 100%;
+  top: 105%;
   left: 0;
   right: 0;
   background-color: #fff;
+  border-radius: 5px;
   opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
+.block-filter__dropdown._active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+.block-filter__item {
+  padding: 10px;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  text-transform: capitalize;
+}
+@media (any-hover: hover) {
+  .block-filter__item:hover {
+    background-color: #adadad;
+  }
+}
+
 /*----/Filter----*/
