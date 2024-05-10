@@ -228,6 +228,12 @@ body{
 }
 .hero {
   margin-top: clamp(1.25rem, 0.25rem + 5vw, 4.688rem);
+  .hero-deco{
+    position: absolute;
+    bottom: -240px;
+    right: 0;
+    z-index: -1;
+  }
 		&__container {
       display: flex;
       justify-content: space-between;
