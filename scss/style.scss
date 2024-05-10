@@ -239,8 +239,8 @@ body{
 
 		&__title {
       font-weight: 600;
-      font-size: 68px;
-      line-height: 126%;
+      font-size: clamp(2.5rem, 1.991rem + 2.55vw, 4.25rem);
+      line-height: 1.26;
       text-transform: capitalize;
 		}
 
